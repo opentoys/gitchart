@@ -1,6 +1,6 @@
-# git-statistics
+# gitchart
 
-![Alt text](images/charts.png)
+![gitchart show by github](images/charts.png)
 
 # How to use
 

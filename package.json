@@ -1,6 +1,6 @@
 {
   "name": "@opentoys/gitchart",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "'git statistics by commit show echarts'",
   "main": "index.js",
   "bin": {
@@ -14,7 +14,11 @@
     "url": "git+https://github.com/alonelucky/gitchart.git"
   },
   "keywords": [
-    "git"
+    "git",
+    "statistics",
+    "stat",
+    "analysis",
+    "chart"
   ],
   "author": "alonelucky",
   "license": "MIT",
