@@ -10,8 +10,8 @@ let today = Date.now();
 let max = 0;
 let args = parseArgs(process.argv.slice(2))
 
-if (args.start) today = new Date(args.end).getTime()
-if (args.end) max = new Date(args.start).getTime()
+if (args.end) today = new Date(args.end).getTime()
+if (args.start) max = new Date(args.start).getTime()
 if (args.cache) filename = args.cache
 
 function parseArgs(args) {
