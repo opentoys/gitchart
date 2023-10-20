@@ -52,7 +52,7 @@ if (!fs.existsSync(filename)) {
 	if (!max) max = new Date(execSync(`git log --reverse --no-merges --pretty=format:'%ai' | sed -n 1p`).toString()).getTime()
 	gitlog(today, max)
 } else {
-	linedata.push(...require("./" + filename))
+	linedata.push(...require(process.cwd() + "/" + filename))
 }
 
 if (args.output || args.o) {

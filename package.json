@@ -1,6 +1,6 @@
 {
   "name": "@opentoys/gitchart",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "'git statistics by commit show echarts'",
   "main": "index.js",
   "bin": {
