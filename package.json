@@ -1,0 +1,25 @@
+{
+  "name": "@opentoys/gitchart",
+  "version": "1.0.0",
+  "description": "'git statistics by commit show echarts'",
+  "main": "index.js",
+  "bin": {
+    "gitchart": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"success\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonelucky/gitchart.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "alonelucky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alonelucky/gitchart/issues"
+  },
+  "homepage": "https://github.com/alonelucky/gitchart#readme"
+}
